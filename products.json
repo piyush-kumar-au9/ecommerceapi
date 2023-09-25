@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Smart TV",
+        "price": 599.99,
+        "available_quantity": 50
+    },
+    {
+        "name": "Refrigerator",
+        "price": 799.99,
+        "available_quantity": 30
+    },
+    {
+        "name": "Laptop",
+        "price": 999.99,
+        "available_quantity": 25
+    },
+    {
+        "name": "Headphones",
+        "price": 49.99,
+        "available_quantity": 100
+    },
+    {
+        "name": "Smartphone",
+        "price": 399.99,
+        "available_quantity": 75
+    },
+    {
+        "name": "Tablet",
+        "price": 299.99,
+        "available_quantity": 40
+    },
+    {
+        "name": "Digital Camera",
+        "price": 299.99,
+        "available_quantity": 20
+    },
+    {
+        "name": "Gaming Console",
+        "price": 449.99,
+        "available_quantity": 15
+    },
+    {
+        "name": "Washing Machine",
+        "price": 699.99,
+        "available_quantity": 35
+    },
+    {
+        "name": "Blender",
+        "price": 69.99,
+        "available_quantity": 50
+    },
+    {
+        "name": "Coffee Maker",
+        "price": 39.99,
+        "available_quantity": 30
+    },
+    {
+        "name": "Microwave Oven",
+        "price": 149.99,
+        "available_quantity": 25
+    },
+    {
+        "name": "Toaster",
+        "price": 29.99,
+        "available_quantity": 40
+    },
+    {
+        "name": "Vacuum Cleaner",
+        "price": 129.99,
+        "available_quantity": 20
+    },
+    {
+        "name": "Air Purifier",
+        "price": 199.99,
+        "available_quantity": 15
+    },
+    {
+        "name": "Electric Kettle",
+        "price": 24.99,
+        "available_quantity": 50
+    },
+    {
+        "name": "Desk Chair",
+        "price": 79.99,
+        "available_quantity": 40
+    },
+    {
+        "name": "Smart Watch",
+        "price": 149.99,
+        "available_quantity": 30
+    },
+    {
+        "name": "Fitness Tracker",
+        "price": 69.99,
+        "available_quantity": 45
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "price": 49.99,
+        "available_quantity": 60
+    }
+]
