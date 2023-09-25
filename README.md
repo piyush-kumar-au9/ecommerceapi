@@ -11,18 +11,15 @@ Before you can run this application, make sure you have the following prerequisi
 
 ## Getting Started
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine
 
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
-
+2. Create a virtual environment
 # On macOS and Linux
-python3 -m venv venv
+python3 -m venv venv<br/>
 source venv/bin/activate
 
 # On Windows
-python -m venv venv
+python -m venv venv<br/>
 .\venv\Scripts\activate
 
 
@@ -30,7 +27,7 @@ python -m venv venv
 pip install -r requirements.txt
 
 # to start the application
-python main.py
+python main.py<br/>
 The application should now be running at http://localhost:8000/
 
 # Swagger docs
