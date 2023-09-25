@@ -5,7 +5,6 @@ from pymongo import MongoClient
 from fastapi import FastAPI, HTTPException
 from models import Order, Product
 import sys
-# import json
 from bson import ObjectId
 
 app = FastAPI()
@@ -47,7 +46,7 @@ async def list_products():
         for product in products:
             # Create a custom field with the ObjectId as a string
             product["product_id"] = str(product["_id"])
-            product.pop("_id")  # Remove the original ObjectId field
+            product.pop("_id")  
             product_list.append(product)
     return JSONResponse(
         status_code=200,
@@ -79,8 +78,6 @@ async def update_product_quantity(product_id: str, updated_quantity: int):
 @app.post("/api/orders/", response_model=Order)
 async def create_order(order: Order):
     order.timestamp = datetime.utcnow()
-    # insert_user = user_info.insert_one(order.user_address)
-    # insert_order = ordered_items.insert_one()
     insert_result = orders_collection.insert_one(order.model_dump())
 
     if not insert_result.inserted_id:

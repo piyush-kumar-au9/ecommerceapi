@@ -20,7 +20,6 @@ class OrderItem(BaseModel):
     total_amount: float
 
 class Order(BaseModel):
-    order_id:str
     timestamp: datetime = Field(default_factory=datetime.utcnow)
     items: List[OrderItem]
     user_address: UserAddress
